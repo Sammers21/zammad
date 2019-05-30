@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  scope "/some-crazy-path-prefix" do
+  scope "/zammad" do
     # app init
     match '/init', to: 'init#index', via: :get
     match '/app', to: 'init#index', via: :get
